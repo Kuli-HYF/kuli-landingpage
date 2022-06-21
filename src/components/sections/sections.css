@@ -1,0 +1,41 @@
+.dark-blue-title {
+  color: var(--dark-blue);
+}
+
+.content {
+  max-width: 1400px;
+  height: calc(100vh - 80px);
+  margin: 0 auto;
+  padding: 48px 48px;
+}
+
+.badges-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.badges-container {
+  display: flex;
+  gap: 40px;
+}
+.badge-container{
+  width: 200px;
+  height: 200px;
+  background-color: var(--light-pink);
+}
+
+.section-title {
+  font-size: 2.5rem;
+}
+
+.section-intro {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.badges-container {
+  background-color: white;
+}

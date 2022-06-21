@@ -21,7 +21,9 @@
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 1em;
-  background-color: var(--light-pink);
+  /* background-color: var(--light-pink); */
+  background-color: white;
+
   z-index: 999;
 }
 
