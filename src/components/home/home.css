@@ -1,3 +1,6 @@
+button {
+  margin-top: 48px;
+}
 
 /* header-styles */
 
@@ -16,17 +19,16 @@
   display: flex;
   /* flex-direction: column; */
   /* justify-content: flex-start; */
-  align-items: center; 
+  align-items: center;
 }
 
-.header-left{
+.header-left {
   width: 50%;
 }
 
-.header-right{
+.header-right {
   width: 50%;
 }
-
 
 .header-logo-container {
   margin-bottom: 24px;
@@ -51,7 +53,7 @@ h1 {
 
 .header-paragraph-container {
   padding: 0;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .header-paragraph {

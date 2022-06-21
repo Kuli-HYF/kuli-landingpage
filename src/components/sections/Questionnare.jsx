@@ -1,4 +1,7 @@
 import "./sections.css";
+import { Link } from "react-router-dom";
+import { Button } from "../../components/button/Button";
+
 import questionnaire from "../../assets/kuli-questionnaire.png";
 
 const Questionnaire = () => {
@@ -16,6 +19,12 @@ const Questionnaire = () => {
             more. Questionnaires are divided into 4 different categories that
             focus on different aspects:
           </p>
+          <Link to={"/kuli"}>
+            <Button
+              title="Explore Kuli"
+              color="questionnaire-button dark-pink"
+            />
+          </Link>
         </div>
       </div>
     </section>

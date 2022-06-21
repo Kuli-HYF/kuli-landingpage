@@ -7,6 +7,21 @@
   height: calc(100vh - 80px);
   margin: 0 auto;
   padding: 48px 48px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* video section styles */
+
+.video {
+  width: 600px;
+  height: 300px;
+  background-color: darkgrey;
+}
+
+.video-container {
+  background-color: white;
 }
 
 /* badges section styles */
@@ -34,28 +49,51 @@
 
 .section-intro {
   font-family: "Work Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
 .badges-container {
-  background-color: white;
+  /* background-color: var(--light-pink); */
+  background-color: var(--light-blue);
 }
 
 /* questionnaire section styles */
 
 .questionnaire-container {
-  background-color: var(--light-blue);
+  background-color: white;
 }
 
 .questionnaire-content {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
+
 .questionnaire-text-content {
   width: 50%;
 }
 
 .questionnaire-illustration-container {
+  width: 50%;
+}
+
+/* companies section styles */
+
+.companies-container {
+  background-color: var(--light-pink);
+  /* background-color: var(--light-blue); */
+}
+.companies-content {
+  /* display: flex;
+  align-items: center; */
+}
+
+.companies-text-content {
+  width: 50%;
+}
+
+.companies-illustration-container {
+  display: flex;
+  justify-content: center;
   width: 50%;
 }
