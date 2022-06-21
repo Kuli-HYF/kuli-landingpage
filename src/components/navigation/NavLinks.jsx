@@ -1,6 +1,6 @@
 import { navLinks } from "./NavData";
 import NavLinkItem from "./NavLinkItem";
-import { navLinksLogIn } from "./NavDataLogIn";
+// import { navLinksLogIn } from "./NavDataLogIn";
 
 const NavLinks = () => {
 
@@ -8,7 +8,7 @@ const NavLinks = () => {
     <>
 
         <ul className="nav-list">
-          {navLinksLogIn.map(({ name, link }, i) => (
+          {navLinks.map(({ name, link }, i) => (
             <NavLinkItem name={name} link={link} key={i} />
           ))}
         </ul>

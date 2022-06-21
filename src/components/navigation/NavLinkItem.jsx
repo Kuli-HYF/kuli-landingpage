@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
+// import { NavHashLink } from 'react-router-hash-link';
 
 const NavLinkItem = ({ link, name }) => {
   const { pathname } = useLocation();
