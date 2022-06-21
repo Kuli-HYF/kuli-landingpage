@@ -9,6 +9,8 @@
   padding: 48px 48px;
 }
 
+/* badges section styles */
+
 .badges-content {
   display: flex;
   flex-direction: column;
@@ -20,7 +22,7 @@
   display: flex;
   gap: 40px;
 }
-.badge-container{
+.badge-container {
   width: 200px;
   height: 200px;
   background-color: var(--light-pink);
@@ -38,4 +40,22 @@
 
 .badges-container {
   background-color: white;
+}
+
+/* questionnaire section styles */
+
+.questionnaire-container {
+  background-color: var(--light-blue);
+}
+
+.questionnaire-content {
+  display: flex;
+  align-items: center;
+}
+.questionnaire-text-content {
+  width: 50%;
+}
+
+.questionnaire-illustration-container {
+  width: 50%;
 }

@@ -1,5 +1,7 @@
 import Navigation from "../../components/navigation/Navigation";
 import Badges from "../sections/Badges";
+import Companies from "../sections/Companies";
+import Questionnaire from "../sections/Questionnare";
 import Header from "./Header";
 
 const Home = () => {
@@ -8,7 +10,9 @@ const Home = () => {
       <div className="header-container">
         <Navigation />
         <Header />
-        <Badges/>
+        <Badges />
+        <Questionnaire />
+        <Companies />
       </div>
     </>
   );
