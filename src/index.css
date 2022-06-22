@@ -22,6 +22,8 @@ html,
 body {
   height: 100%;
   font-family: "Work Sans", sans-serif;
+  scroll-snap-type: y mandatory;
+
 }
 
 body {

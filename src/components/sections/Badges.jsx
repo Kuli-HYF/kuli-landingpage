@@ -11,21 +11,23 @@ import { ReactComponent as KuliBadge } from "../../assets/kuli-badge-full-black-
 
 const Badges = () => {
   return (
-    <section className="badges-container">
+    <section className="badges-content-container">
       <div className="badges-content content">
-        <h2 className="section-title dark-blue-title">Our Kuli badges</h2>
-        <p className="section-intro badges-intro">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dicta ex, quam veniam tenetur optio cupiditate ipsa
-          aliquid? Dolorem asperiores itaque nemo officia saepe facere.
-          Voluptatum, cumque? Ducimus, possimus aliquam!
-        </p>
+        <div className="badges-text-content">
+          <h2 className="section-title dark-blue-title">Our Kuli badges</h2>
+          <p className="section-intro badges-intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus dicta ex, quam veniam tenetur optio cupiditate ipsa
+            aliquid? Dolorem asperiores itaque nemo officia saepe facere.
+            Voluptatum, cumque? Ducimus, possimus aliquam!
+          </p>
+        </div>
 
         <div className="badges-container">
           <div className="badge-container">
             {/* <img src={kuliBadgePurple} className="kuli-badge" alt="Kuli badge"></img> */}
             <KuliBadge className="kuli-badge" fill="#8e336e" />
-            
+
             <h3 className="badge-title purple">Employment and compensation </h3>
           </div>
           <div className="badge-container">
