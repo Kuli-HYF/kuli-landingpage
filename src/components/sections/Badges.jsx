@@ -7,7 +7,7 @@ import kuliBadgeGreen from "../../assets/kuli-badge-green.svg";
 import kuliBadgeRed from "../../assets/kuli-badge-red.svg";
 import kuliBadgeBlue from "../../assets/kuli-badge-blue.svg";
 
-import { ReactComponent as KuliBadge } from "../../assets/kuli-badge-full-black.svg";
+import { ReactComponent as KuliBadge } from "../../assets/kuli-badge-full-black-fill.svg";
 
 const Badges = () => {
   return (
@@ -24,27 +24,27 @@ const Badges = () => {
         <div className="badges-container">
           <div className="badge-container">
             {/* <img src={kuliBadgePurple} className="kuli-badge" alt="Kuli badge"></img> */}
-            <KuliBadge className="kuli-badge" fill="#7a108b" />
+            <KuliBadge className="kuli-badge" fill="#8e336e" />
             
             <h3 className="badge-title purple">Employment and compensation </h3>
           </div>
           <div className="badge-container">
             {/* <img src={kuliBadgeGreen} className="kuli-badge" alt="Kuli badge"></img> */}
-            <KuliBadge className="kuli-badge" fill="#06a53c" />
+            <KuliBadge className="kuli-badge" fill="#71b134" />
             <h3 className="badge-title green">
               Work life balance and career development
             </h3>
           </div>
           <div className="badge-container">
             {/* <img src={kuliBadgeRed} className="kuli-badge" alt="Kuli badge"></img> */}
-            <KuliBadge className="kuli-badge" fill="#ef2438" />
+            <KuliBadge className="kuli-badge" fill="#e53922" />
             <h3 className="badge-title red">
               Health, safety and freedom from violence
             </h3>
           </div>
           <div className="badge-container">
             {/* <img src={kuliBadgeBlue} className="kuli-badge" alt="Kuli badge"></img> */}
-            <KuliBadge className="kuli-badge" fill="#048ba8" />
+            <KuliBadge className="kuli-badge" fill="#0e8993" />
             <h3 className="badge-title blue">Governance and leadership </h3>
           </div>
         </div>

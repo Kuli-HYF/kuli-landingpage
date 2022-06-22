@@ -51,10 +51,7 @@ const Header = () => {
 
       <motion.div className="header-buttons-container" variants={item}>
         <Link to={"/questionnaire"}>
-          <Button title="Award Badges" color="home-button dark-pink" />
-        </Link>
-        <Link to={"/companies"}>
-          <Button title="Explore Companies" color="home-button dark-pink" />
+          <Button title="Explore Kuli" color="home-button dark-pink" />
         </Link>
       </motion.div>
     </motion.div>
@@ -62,8 +59,6 @@ const Header = () => {
 };
 
 export default Header;
-
-
 
 // import "./home.css";
 // import kuliOne from "../../assets/Kuli-1.png";
