@@ -4,6 +4,7 @@ import Badges from "../sections/Badges";
 import Companies from "../sections/Companies";
 import Questionnaire from "../sections/Questionnare";
 import Header from "./Header";
+import Footer from "../sections/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Badges />
         <Questionnaire />
         <Companies />
+        <Footer/>
       </div>
     </>
   );

@@ -2,6 +2,22 @@
   color: var(--dark-blue);
 }
 
+.purple {
+  color: var(--badge-purple);
+}
+
+.green {
+  color: var(--badge-green);
+}
+
+.red {
+  color: var(--badge-red);
+}
+
+.blue {
+  color: var(--badge-blue);
+}
+
 .content {
   max-width: 1400px;
   height: calc(100vh - 80px);
@@ -37,34 +53,42 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  /* background-color: var(--light-pink); */
+  background-color: var(--light-blue);
+  /* background-color: white; */
 }
 
 .badge-title {
   color: var(--dark-blue);
   text-align: center;
+  font-weight: 500;
   margin-bottom: 24px;
+  padding-inline: 20px;
 }
 
-.badges-intro{
+.badges-intro {
   text-align: center;
   margin-bottom: 16px;
-
 }
 
 .badge-container {
   width: 20%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.badge {
+.badge-title-container {
+}
+
+.kuli-badge {
   width: 160px;
   height: 160px;
+  margin-bottom: 28px;
   /* background-color: var(--light-pink); */
-  border: 2px solid var(--dark-blue);
-  border-radius: 50%;
+  /* border: 2px solid var(--dark-blue);
+  border-radius: 50%; */
 }
 
 .section-title {
@@ -75,11 +99,6 @@
   font-family: "Work Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
-}
-
-.badges-container {
-  /* background-color: var(--light-pink); */
-  background-color: var(--light-blue);
 }
 
 /* questionnaire section styles */
@@ -99,6 +118,9 @@
 
 .questionnaire-illustration-container {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* companies section styles */
@@ -120,4 +142,30 @@
   display: flex;
   justify-content: center;
   width: 50%;
+}
+
+/* footer styles */
+
+.footer-container {
+  /* height: 140px; */
+  width: 100%;
+  height: 100px;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px 48px;
+  color: white;
+}
+
+.kuli-logo-light{
+  width: 90px;
 }

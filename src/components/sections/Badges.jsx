@@ -2,6 +2,13 @@ import "./sections.css";
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
 
+import kuliBadgePurple from "../../assets/kuli-badge-purple.svg";
+import kuliBadgeGreen from "../../assets/kuli-badge-green.svg";
+import kuliBadgeRed from "../../assets/kuli-badge-red.svg";
+import kuliBadgeBlue from "../../assets/kuli-badge-blue.svg";
+
+import { ReactComponent as KuliBadge } from "../../assets/kuli-badge-full-black.svg";
+
 const Badges = () => {
   return (
     <section className="badges-container">
@@ -16,24 +23,29 @@ const Badges = () => {
 
         <div className="badges-container">
           <div className="badge-container">
-            <h3 className="badge-title">Employment and compensation </h3>
-            <div className="badge"></div>
+            {/* <img src={kuliBadgePurple} className="kuli-badge" alt="Kuli badge"></img> */}
+            <KuliBadge className="kuli-badge" fill="#7a108b" />
+            
+            <h3 className="badge-title purple">Employment and compensation </h3>
           </div>
           <div className="badge-container">
-            <h3 className="badge-title">
+            {/* <img src={kuliBadgeGreen} className="kuli-badge" alt="Kuli badge"></img> */}
+            <KuliBadge className="kuli-badge" fill="#06a53c" />
+            <h3 className="badge-title green">
               Work life balance and career development
             </h3>
-            <div className="badge"></div>
           </div>
           <div className="badge-container">
-            <h3 className="badge-title">
+            {/* <img src={kuliBadgeRed} className="kuli-badge" alt="Kuli badge"></img> */}
+            <KuliBadge className="kuli-badge" fill="#ef2438" />
+            <h3 className="badge-title red">
               Health, safety and freedom from violence
             </h3>
-            <div className="badge"></div>
           </div>
           <div className="badge-container">
-            <h3 className="badge-title">Governance and leadership </h3>
-            <div className="badge"></div>
+            {/* <img src={kuliBadgeBlue} className="kuli-badge" alt="Kuli badge"></img> */}
+            <KuliBadge className="kuli-badge" fill="#048ba8" />
+            <h3 className="badge-title blue">Governance and leadership </h3>
           </div>
         </div>
         <Link to={"/kuli"}>

@@ -58,7 +58,7 @@ const Header = () => {
             </Link>
           </motion.div>
         </div>
-        <div className="header-right">
+        <div className="header-illustration-container">
           <img src={kuliOne} className="" alt="Kuli logo"></img>
         </div>
       </motion.div>

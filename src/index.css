@@ -72,7 +72,7 @@ body {
   /* --dark-pink-hsl: hsl(10.2, 79.3%, 67.8%); */
   --dark-pink-hsl: hsl(10, 79%, 64%);
   --dark-pink-hsl-darker: hsl(10, 79%, 58%);
-  --light-pink-hsl-lighter: hsl(27, 88%, 98%);
+  --light-pink-hsl-lighter: hsl(27, 82%, 98%);
 
   --light-pink: #fce3cf;
   --dark-blue: #302b70;
@@ -80,7 +80,10 @@ body {
   --light-blue: #edf1f9;
   --light-blue-hsl-lighter: hsl(220, 50%, 99%);
 
-
+  --badge-purple: #7a108b;
+  --badge-green: #06a53c;
+  --badge-red: #ef2438;
+  --badge-blue: #048ba8;
 }
 
 /* .Button {

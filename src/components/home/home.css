@@ -26,8 +26,11 @@ button {
   width: 50%;
 }
 
-.header-right {
+.header-illustration-container {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-logo-container {

@@ -6,7 +6,7 @@ import questionnaire from "../../assets/kuli-questionnaire.png";
 
 const Questionnaire = () => {
   return (
-    <section id="section-one"className="questionnaire-container">
+    <section id="section-one" className="questionnaire-container">
       <div className="questionnaire-content content">
         <div className="questionnaire-illustration-container">
           <img src={questionnaire} className="" alt="Kuli logo"></img>
