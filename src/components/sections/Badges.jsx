@@ -13,7 +13,7 @@ import { ReactComponent as KuliBadge } from "../../assets/kuli-badge-full-black-
 
 const Badges = () => {
   return (
-    <section className="badges-content-container">
+    <section id="badges" className="badges-content-container">
       <div className="badges-content content">
         <div className="badges-text-content">
           <h2 className="section-title dark-blue-title">Our Kuli badges</h2>

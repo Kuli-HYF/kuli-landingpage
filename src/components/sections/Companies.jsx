@@ -8,7 +8,7 @@ import companies from "../../assets/kuli-companies.png";
 
 const Companies = () => {
   return (
-    <section className="companies-container">
+    <section id="companies" className="companies-container">
       <div className="companies-content content">
         <div className="companies-text-content">
           <h2 className="section-title dark-blue-title">Kuli companies</h2>

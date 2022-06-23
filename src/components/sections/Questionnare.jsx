@@ -4,11 +4,11 @@ import {url} from "../../url"
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
 
-import questionnaire from "../../assets/kuli-questionnaire.png";
+import questionnaire from "../../assets/kuli-questionnaires.png";
 
 const Questionnaire = () => {
   return (
-    <section id="section-one" className="questionnaire-container">
+    <section id="questionnaire" className="questionnaire-container">
       <div className="questionnaire-content content">
         <div className="questionnaire-illustration-container">
           <img src={questionnaire} className="" alt="Kuli logo"></img>
