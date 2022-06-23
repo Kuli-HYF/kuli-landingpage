@@ -13,10 +13,9 @@ const Badges = () => {
         <div className="badges-text-content">
           <h2 className="section-title dark-blue-title">Our Kuli badges</h2>
           <p className="section-intro badges-intro">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus dicta ex, quam veniam tenetur optio cupiditate ipsa
-            aliquid? Dolorem asperiores itaque nemo officia saepe facere.
-            Voluptatum, cumque? Ducimus, possimus aliquam!
+            Our badges represent the final stage of our system in action but
+            more importantly they represent the experiences of our users and
+            their will to help others.
           </p>
         </div>
 
