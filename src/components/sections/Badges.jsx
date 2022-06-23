@@ -1,4 +1,6 @@
 import "./sections.css";
+import {url} from "../../url"
+
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
 
@@ -50,7 +52,7 @@ const Badges = () => {
             <h3 className="badge-title blue">Governance and leadership </h3>
           </div>
         </div>
-        <Link to={"/kuli"}>
+        <Link to={url} target="_blank">
           <Button title="Explore Kuli" color="badges-button dark-pink" />
         </Link>
       </div>

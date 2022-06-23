@@ -9,7 +9,7 @@ import Footer from "../sections/Footer";
 const Home = () => {
   return (
     <>
-      <div className="header-container">
+      {/* <div className="header-container"> */}
         <Navigation />
         <Header />
         <Video/>
@@ -17,7 +17,7 @@ const Home = () => {
         <Questionnaire />
         <Companies />
         <Footer/>
-      </div>
+      {/* </div> */}
     </>
   );
 };

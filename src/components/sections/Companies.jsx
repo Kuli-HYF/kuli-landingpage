@@ -1,4 +1,6 @@
 import "./sections.css";
+import {url} from "../../url"
+
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
 
@@ -16,7 +18,7 @@ const Companies = () => {
             more. Companiess are divided into 4 different categories that focus
             on different aspects:
           </p>
-          <Link to={"/kuli"}>
+          <Link to={url} target="_blank">
             <Button title="Explore Kuli" color="companies-button dark-pink" />
           </Link>
         </div>

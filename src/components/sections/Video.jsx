@@ -1,4 +1,6 @@
 import "./sections.css";
+import {url} from "../../url"
+
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
 
@@ -24,7 +26,7 @@ const Video = () => {
             the effort of organizations for a more equal and sustainable
             society.
           </p>
-          <Link to={"/kuli"}>
+          <Link to={url} target="_blank">
             <Button title="Explore Kuli" color="video-button dark-pink" />
           </Link>
         </div>
