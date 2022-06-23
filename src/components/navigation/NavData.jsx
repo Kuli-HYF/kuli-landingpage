@@ -1,8 +1,10 @@
 export const navLinks = [
-  { link: "/", name: "Home" },
-  { link: "/badges", name: "Our System" },
-  { link: "/companies", name: "Companies" },
-  { link: "/about", name: "About Us" },
-  { link: "/sign-up", name: "Sign Up" },
-  { link: "/login", name: "Login" },
+  // { link: "home", name: "Home" },
+  { link: "intro", name: "Introducing Kuli" },
+  { link: "badges", name: "Our Badges" },
+  { link: "questionnaires", name: "Our Questionnaires" },
+  { link: "companies", name: "Company Search" }
+  // { link: "about", name: "About Us" },
+  // { link: "sign-up", name: "Sign Up" },
+  // { link: "login", name: "Login" },
 ];

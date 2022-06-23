@@ -2,8 +2,10 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
+import { Link } from "react-scroll";
+
 const NavLinkItem = ({ link, name }) => {
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
   return (
     <>
@@ -13,18 +15,22 @@ const NavLinkItem = ({ link, name }) => {
           opacity: 1,
         }}
       >
-        <NavLink
+        <Link
+          activeClass="underline"
           to={`${link}`}
-          style={({ isActive }) => (isActive ? { opacity: "1" } : {})}
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
         >
           {name}
-          {pathname === link && (
-            <motion.span
+          {/* {pathname === link && ( */}
+          {/* <motion.span
               className="underline"
               layoutId="underline"
-            ></motion.span>
-          )}
-        </NavLink>
+            ></motion.span> */}
+          {/* )} */}
+        </Link>
       </motion.div>
     </>
   );

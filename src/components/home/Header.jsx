@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header-content-container">
+    <div id="home" className="header-content-container">
       <motion.div
         className="header-content"
         initial="hidden"

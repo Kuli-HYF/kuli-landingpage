@@ -8,7 +8,7 @@ import { Button } from "../../components/button/Button";
 
 const Video = () => {
   return (
-    <section className="video-container">
+    <section id="intro" className="video-container">
       <div className="video-content content">
         <div className="video-illustration-container">
           <div className="video"></div>
