@@ -1,5 +1,5 @@
 import "./sections.css";
-import {url} from "../../url"
+import { url } from "../../url";
 
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
@@ -18,8 +18,10 @@ const Questionnaire = () => {
           <p className="section-intro">
             Kuli provides a questionnaire that allows users to asses different
             aspects of a company's working environment, internal dynamics and
-            more. Questionnaires are divided into 4 different categories that
-            focus on different aspects:
+            more. Questionnaires are divided into four different categories that
+            focus on different aspects: Employment and compensation, Work life
+            balance and career development, Health, safety and freedom from
+            violence, Governance and leadership.
           </p>
           <Link to={url} target="_blank">
             <Button

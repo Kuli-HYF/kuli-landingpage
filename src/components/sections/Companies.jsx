@@ -1,5 +1,5 @@
 import "./sections.css";
-import {url} from "../../url"
+import { url } from "../../url";
 
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
@@ -13,10 +13,14 @@ const Companies = () => {
         <div className="companies-text-content">
           <h2 className="section-title dark-blue-title">Kuli companies</h2>
           <p className="section-intro">
-            Kuli provides a Companies that allows users to asses different
-            aspects of a company's working environment, internal dynamics and
-            more. Companiess are divided into 4 different categories that focus
-            on different aspects:
+            Studies have demonstrated a link between an organization’s
+            performance and the level of diversity of its governing body.
+            Organizations need to expand this process and ensure that both women
+            and men are represented at key positions throughout the
+            administration. Having a gender balanced senior management also
+            sends a strong message to employees, that the organization’s
+            commitment to diversity is not just a marketing ploy, but an actual
+            strategic corporate value.
           </p>
           <Link to={url} target="_blank">
             <Button title="Explore Kuli" color="companies-button dark-pink" />
