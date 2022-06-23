@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
-// import { NavHashLink } from 'react-router-hash-link';
 
+import { Link } from "react-scroll";
 
 import { navLinks } from "./NavData";
 
@@ -11,15 +9,14 @@ import Hamburger from "./Hamburger";
 
 const NavLinksMobile = () => {
   const [isOpen, setOpen] = useState(false);
-  const { pathname } = useLocation();
 
   const linkVariants = {
     opened: {
       opacity: 1,
       y: 20,
-      transition:{
+      transition: {
         ease: "easeOut",
-      }
+      },
     },
     closed: {
       opacity: 0,
@@ -53,18 +50,16 @@ const NavLinksMobile = () => {
       >
         {navLinks.map(({ name, link }, i) => (
           <motion.li key={i} variants={linkVariants}>
-            <NavLink
+            <Link
               to={`${link}`}
-              style={({ isActive }) => (isActive ? { opacity: "1" } : {})}
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              activeClass="underline"
             >
               {name}
-              {pathname === link && (
-                <motion.span
-                  className="underline"
-                  layoutId="underline"
-                ></motion.span>
-              )}
-            </NavLink>
+            </Link>
           </motion.li>
         ))}
       </motion.ul>
