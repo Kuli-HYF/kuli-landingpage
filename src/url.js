@@ -1,1 +1,1 @@
-export const url = "/https://velvety-lamington-1a3153.netlify.app/"
+export const url = "//velvety-lamington-1a3153.netlify.app/"
