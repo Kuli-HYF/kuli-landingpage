@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-// import { useLocation } from "react-router-dom";
 
 import { Link } from "react-scroll";
 
@@ -11,7 +9,6 @@ import Hamburger from "./Hamburger";
 
 const NavLinksMobile = () => {
   const [isOpen, setOpen] = useState(false);
-  // const { pathname } = useLocation();
 
   const linkVariants = {
     opened: {
@@ -60,15 +57,8 @@ const NavLinksMobile = () => {
               offset={0}
               duration={500}
               activeClass="underline"
-              // style={({ isActive }) => (isActive ? { opacity: "1" } : {})}
             >
               {name}
-              {/* {pathname === link && ( */}
-              {/* <motion.span
-                className="underline"
-                layoutId="underline"
-              ></motion.span> */}
-              {/* )} */}
             </Link>
           </motion.li>
         ))}

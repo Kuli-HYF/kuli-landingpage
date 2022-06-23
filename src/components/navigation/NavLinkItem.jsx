@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
 
 import { Link } from "react-scroll";
 
@@ -24,12 +22,6 @@ const NavLinkItem = ({ link, name }) => {
           duration={500}
         >
           {name}
-          {/* {pathname === link && ( */}
-          {/* <motion.span
-              className="underline"
-              layoutId="underline"
-            ></motion.span> */}
-          {/* )} */}
         </Link>
       </motion.div>
     </>
