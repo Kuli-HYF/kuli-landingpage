@@ -40,19 +40,33 @@ button {
 
 /* video section styles */
 
-.video {
+/* .video {
   width: 100%;
   height: 360px;
   background-color: darkgrey;
-}
+} */
 
-.video-illustration-container {
-  width: 50%;
-  background-color: white;
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
 }
 
 .video-text-content {
   width: 50%;
+}
+
+.video-container-wrapper {
+  width: 50%;
+}
+
+.video-iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
 }
 
 /* badges section styles */
@@ -194,10 +208,42 @@ button {
 @media (max-width: 1324px) {
   .content {
     height: fit-content;
+    padding-block: 120px;
   }
 
   .header-content {
     height: fit-content;
+  }
+
+  .video-text-content {
+    width: 45%;
+  }
+
+  .video-container-wrapper {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .content {
+    height: fit-content;
+    padding-block: 120px;
+  }
+  .video-content {
+    flex-direction: column;
+  }
+
+  .video-container {
+    width: 100%;
+  }
+
+  .video-container-wrapper {
+    width: 80%;
+  }
+
+  .video-text-content {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -211,15 +257,7 @@ button {
     padding: 90px 48px;
   }
 
-  .video-content {
-    flex-direction: column;
-  }
-
-  .video-illustration-container {
-    width: 100%;
-  }
-
-  .video-text-content {
+  .video-container-wrapper {
     width: 100%;
   }
 

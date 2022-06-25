@@ -1,5 +1,5 @@
 import "./sections.css";
-import {url} from "../../url"
+import { url } from "../../url";
 
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/Button";
@@ -8,11 +8,21 @@ import { Button } from "../../components/button/Button";
 
 const Video = () => {
   return (
-    <section id="intro" className="video-container">
+    <section id="intro" className="video-content-container">
       <div className="video-content content">
-        <div className="video-illustration-container">
-          <div className="video"></div>
-          {/* <img src={video} className="" alt="Kuli logo"></img> */}
+        <div className="video-container-wrapper">
+          <div className="video-container">
+            <iframe
+              width="853"
+              height="505"
+              className="video-iframe"
+              src="https://www.youtube.com/embed/avAocaqbtIY"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              title="video"
+            />{" "}
+          </div>
         </div>
         <div className="video-text-content">
           <h2 className="section-title dark-blue-title">Introducing Kuli</h2>
