@@ -12,16 +12,17 @@ const Video = () => {
       <div className="video-content content">
         <div className="video-container-wrapper">
           <div className="video-container">
+
             <iframe
               width="853"
               height="505"
               className="video-iframe"
               src="https://www.youtube.com/embed/avAocaqbtIY"
+              title="YouTube video player"
               frameBorder="0"
-              allow="autoplay; encrypted-media"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              title="video"
-            />{" "}
+            ></iframe>
           </div>
         </div>
         <div className="video-text-content">
