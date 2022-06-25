@@ -9,7 +9,7 @@ const Footer = () => {
           <img className="kuli-logo-light" src={KuliLogoLight} alt="Kuli logo"></img>
         </div>
         <div className="footer-text-container">
-          <p>copyright 2022 - all rights reserved - Kuli</p>
+          <p>© 2022 - Kuli - All rights reserved </p>
         </div>
       </div>
     </div>

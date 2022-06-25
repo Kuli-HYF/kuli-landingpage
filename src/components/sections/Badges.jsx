@@ -32,7 +32,7 @@ const Badges = () => {
             </h3>
           </div>
           <div className="badge-container">
-            <KuliBadge className="kuli-badge" fill="#e53922" />
+            <KuliBadge className="kuli-badge" fill="#e52f22" />
             <h3 className="badge-title red">
               Health, safety and freedom from violence
             </h3>

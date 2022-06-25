@@ -23,7 +23,6 @@ body {
   height: 100%;
   font-family: "Work Sans", sans-serif;
   scroll-snap-type: y mandatory;
-
 }
 
 body {
@@ -86,7 +85,6 @@ body {
   --badge-green: #06a53c;
   --badge-red: #ef2438;
   --badge-blue: #048ba8;
-  
 }
 
 /* .Button {
