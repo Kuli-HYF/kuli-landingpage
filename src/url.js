@@ -1,1 +1,1 @@
-export const url = "//kuli.netlify.app/"
+export const url = "//kuli-hyf.netlify.app/"
